@@ -1,0 +1,75 @@
+.footer {
+  background-color: #ffece6;
+  padding: 50px 5%;
+  color: #2c2c2c;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-col h2,
+.footer-col h3 {
+  margin-bottom: 15px;
+  color: #e8501d;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px 0 0 6px;
+  flex: 1;
+}
+
+.footer-input button {
+  background-color: #e8501d;
+   border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.footer-phone {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-links span {
+  margin-right: 15px;
+  cursor: pointer;
+}
